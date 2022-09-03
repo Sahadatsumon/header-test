@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Float Header</title>
+   <style>
+      .container{
+         margin: 0 auto;
+         background-color: rgba(110, 226, 43, 0.76);
+         border: 1px solid red;
+         width: 90%;
+         overflow: hidden;
+      }
+      .logo{
+         width: 10%;
+         border: 1px solid red;
+         float: left;
+      }
+      .logo a{
+         display: block;
+      }
+      .logo a img{
+        width: 100%;
+      }
+      .menu{
+         float: right;
+         width: 60%;
+         border: 1px solid red;
+      }
+      .menu ul{
+         float: right;
+      }
+      .menu ul li{
+         float: left;
+         list-style: none;
+      }
+      .menu ul li a{
+         display: inline-block;
+         padding: 0 23px;
+         text-decoration: none;
+         font-family: sans-serif;
+         font-weight: normal;
+         font-size: 15px;
+      }
+      .menu ul li a:hover{
+         color: rgba(218, 103, 10, 0.774);
+      }
+   </style>
+</head>
+<body>
+   <header>
+    <div class="container"> 
+      <div class="logo"><a href="index.html"><img src="logo.png" alt="Quick"></a></div>
+         <nav class="menu">
+            <ul>
+                <li><a href=#Overviews>Overviews</a></li>
+                <li><a href=#Landings>Landings</a></li>
+                <li><a href=#Pages>Pages</a></li>
+                <li><a href=#Apps>Apps</a></li>
+                <li><a href=#Docs>Docs</a></li>
+            </ul>
+      </nav>
+    </div>
+   </header>
+   
+</body>
+</html>
